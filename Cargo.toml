@@ -1,0 +1,10 @@
+[package]
+name = "rusttest"
+version = "0.1.0"
+authors = ["Brent Gardner <bgardner@squarelabs.net>"]
+
+[dependencies]
+rustc-serialize = "*"
+
+[dependencies.nickel]
+version = "*"
