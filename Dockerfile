@@ -19,6 +19,9 @@ RUN rustc --version && \
 # Optionally, install RustDT https://github.com/RustDT/RustDT/blob/latest/documentation/Installation.md#installation
 # wget http://eclipse.mirror.rafal.ca/eclipse/downloads/drops4/R-4.6-201606061100/eclipse-platform-4.6-linux-gtk-x86_64.tar.gz
 # https://rustdt.github.io/releases/
+# Moonrise: https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite
+# egit: http://download.eclipse.org/egit/updates
+# WTP: http://download.eclipse.org/webtools/repository/neon/
 
 # --------------------------- source ------------------------------------------
 RUN cd /root && \
