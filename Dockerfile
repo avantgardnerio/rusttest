@@ -30,8 +30,7 @@ RUN cargo install racer && \
 	racer --version 
 RUN	cargo install rustfmt && \
 	rustfmt --version 
-RUN	cargo install --git https://github.com/RustDT/Rainicorn --tag version_1.x && \
-	rainicorn --version	
+RUN	cargo install --git https://github.com/RustDT/Rainicorn --tag version_1.x
 	
 # --------------------------- example ------------------------------------------
 RUN mkdir -p /root/workspace && \
