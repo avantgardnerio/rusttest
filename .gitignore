@@ -3,4 +3,18 @@ Cargo.lock
 
 # Eclipse
 .project
+.classpath
+.settings
+.cproject
+.jshintrc
+.tern-project
+.sublime-project
 
+Debug/
+bin/
+
+# MonoDevelop
+*.userprefs
+*.sln
+*.csproj
+AssemblyInfo.cs
